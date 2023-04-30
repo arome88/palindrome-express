@@ -1,6 +1,55 @@
-body{
-  background: red;
+* {
+  box-sizing: border-box;
 }
-h3{
-  margin-top: 40px;
+
+body {
+background-color: rgb(193, 158, 226);
+height: 800px;
+}
+
+
+main {
+  width: 50%;
+  margin: 0 25%;
+  /* font-size: 24px; */
+  text-align: center;
+  color: white;
+}
+.title{
+  font-size: 38px;
+  color: black;
+  margin:0;
+}
+
+p{
+  color: black;
+}
+
+
+
+#green {
+  color: lightgreen;
+  background: black;
+}
+#blue {
+  color: rgb(236, 0, 0);
+  background: black;
+
+}
+
+ul {
+  padding: none;
+}
+
+li {
+  list-style: none;
+  color: black;
+  font-size: 14px;
+
+}
+
+input, button {
+border: none;
+border-radius: 7px;
+color: gray
 }
